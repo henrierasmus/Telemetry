@@ -14,7 +14,7 @@ body {
 	height: 100vh;
 	display: flex;
 	padding-top: 2rem;
-	background-image: url('/assets/65%.jpg');
+	background-image: url('https://github.com/henrierasmus/telemetry/tree/master/assets.65%.jpg');
 	background-size: cover;
 	font-weight: 500;
 	font-size: 1rem;
