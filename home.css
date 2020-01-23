@@ -1,34 +1,35 @@
 html {
 	background-color: #f5f5f5;
+	font-family: 'Raleway', sans-serif;
+
 }
 
 body {
 	background-color: #f5f5f5;
+	font-family: 'Raleway', sans-serif;
 }
+
+.container-fluid {
+	font-family: 'Raleway', sans-serif;
+}
+
 
 .container-fluid {
 	background-color: #f5f5f5;
 }
 
 .title-page {
-	height: 100vh;
 	display: flex;
 	padding-top: 2rem;
-	background-image: url('https://raw.githubusercontent.com/henrierasmus/telemetry/master/assets/65%25-web-2.jpg');
+	background-image: url('./assets/photo-1454117096348-e4abbeba002c.png');
 	background-size: cover;
 	font-weight: 500;
 	font-size: 1rem;
 }
 
 .title-page-inner {
-	display: flex;
 	position: relative;
 	height: 100%;
-	flex-direction: column;
-}
-
-.heading {
-	text-align: center;
 }
 
 .about {
@@ -36,28 +37,28 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding-top: 15%;
+	padding-bottom: 5rem;
 }
 
 .about p {
 	width: 50%;
 	margin-top: 2rem;
+	text-align: center;
 }
 
 .services {
-	height: 70vh;
-	padding-top: 2rem;
 	background-color: #f5f5f5;
+	display: flex;
+	margin-top: 2rem;
 }
 
 .services-inner {
-	display: flex;
-	margin-left: 20%;
+	width: 50%;
 }
 
-.service-list {
-	width: 40%;
-	margin-left: 10%;
+.services-inner h4 {
+	text-align: center;
+	font-weight: 600;
 }
 
 .no-bullet {
@@ -65,14 +66,84 @@ body {
 }
 
 .contact {
-	margin-left: 20%;
-	height: 30vh;
+	padding-top: 1rem;
+	background-color: #c4c4c4;
+	text-align: center;
+}
+
+.contact h4 {
+	font-weight: 600;
 }
 
 .rates {
-	margin-top: 3rem;
-	margin-left: 20%;
-	margin-bottom: 5rem;
+	width: 50%;
+}
+
+.rates h4 {
+	text-align: center;
+	font-weight: 600;
+}
+
+.img-wrapper {
+	display: flex;
+	width: auto;
+	margin: auto 35%;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 3rem;
+}
+
+.bullet {
+	margin-top: 1rem;
+}
+
+.images {
+	margin-left: 1rem;
+}
+
+.images img {
+	height: 400px;
+	width: auto;
+}
+
+.partners {
+	height: auto;
+	margin: 2rem 0;
+}
+
+.partners .heading-hr {
+	width: 10%
+}
+
+.partner-logos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.partner-logos img {
+	height: 150px;
+	margin: 0 2rem;
+}
+
+.partners h4 {
+	text-align: center;
+	font-weight: 700;
+}
+
+.heading-hr {
+	border-top: 2px solid #c4c4c4;
+	width: 30%;
+}
+
+#title-logo {
+	width: 50%;
+	height: auto;
+}
+
+#nav-img {
+	margin-left: 5px;
+	width: 25px;
 	height: auto;
 }
 
