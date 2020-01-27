@@ -117,13 +117,16 @@ body {
 
 .partner-logos {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 }
 
 .partner-logos img {
 	height: 150px;
+	width: auto;
 	margin: 0 2rem;
+	transition: 0.5s;
 }
 
 .partners h4 {
@@ -134,6 +137,15 @@ body {
 .heading-hr {
 	border-top: 2px solid #c4c4c4;
 	width: 30%;
+}
+
+.partner-logos img:hover {
+	transform: scale(1.2);
+}
+
+#ecom {
+	height: auto;
+	width: 200px;
 }
 
 #title-logo {
@@ -148,9 +160,15 @@ body {
 }
 
 @media (max-width: 800px) {
-	.services-inner {
+	.services {
 		display: block;
 		left: 0;
+	}
+	.services-inner {
+		width: 90%;
+	}
+	.rates {
+		width: 90%;
 	}
 	.service-list {
 		width: auto;
@@ -167,5 +185,23 @@ body {
 	}
 	.rates {
 		margin: auto;
+	}
+	.partner-logos {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.partner-logos img:hover {
+		transform: none;
+	}
+
+	.partner-logos img {
+		width: 70px;
+		height: auto;
+		margin: 1rem;
+	}
+
+	.images img {
+		width: 70px;
+		height: auto;
 	}
 }
