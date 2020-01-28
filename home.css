@@ -102,8 +102,9 @@ body {
 }
 
 .images img {
-	height: 400px;
-	width: auto;
+	height: auto;
+	width: 400px;
+	margin: 1rem;
 }
 
 .partners {
@@ -203,5 +204,19 @@ body {
 	.images img {
 		width: 70px;
 		height: auto;
+	}
+}
+
+@media (max-width: 1799px) {
+	.images img {
+		height: auto;
+		width: 300px;
+	}
+}
+
+@media (max-width: 1399px) {
+	.images img {
+		height: auto;
+		width: 200px;
 	}
 }
